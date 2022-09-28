@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,600&display=swap');
+ 
+*{
+	font-family: 'Playfair Display', serif;
+}
+
+.header{
+	background: url(https://img5.goodfon.ru/wallpaper/nbig/b/b2/coffe-time-macro-cafe-seeds-cups.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+}
+.navbar-collapse{
+	justify-content: flex-end;
+	word-spacing: 5 px;
+}
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(192, 192, 192, 0.25);
+}
+.headerContent{
+	position: absolute;
+	color: white;
+	top: 35%;
+	min-width: 100%;
+}
+.headerContent h1{
+	letter-spacing: 15px;
+}
+.headerContent p{
+	font-size: 1,5rem;
+}
+.aboutPadding{
+	padding: 0.3rem;
+}
+.about, .coffee, .tradeIn, .products{
+	padding: 4em;
+}
+.about{
+	background: white;
+}
+.about h1, .coffee h1, .tradeIn h1, .products h1, .team h1{
+	padding-bottom: 1.5em;
+}
+.style{
+	padding: 15px;
+}
+.coffee{
+	background:#696969;
+	color: white;
+}
+.coffee div[class|="col"]{
+	outline: -2;
+}
+
+.products, .contact{
+	background: #696969;
+}
+.products h1, .tredeIn h1{
+	color: white;
+}
+.tredeIn{
+	background: #696969;
+}
+.team img{
+	border: 5px solid grey;
+}
+.personDescription {
+	background: grey;
+	color: white;
+}
+.personDescription span{
+color: #C0C0C0;
+}
+.contact h1{
+	padding-top: 100px;
+}
+
